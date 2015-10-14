@@ -1,0 +1,1 @@
+This scraper grabs the disaster data from http://reliefweb.int/disasters.  It does so by grabbing the URLs for every YearMonth combination and then parsing the RSS feeds.  This is necessary because the RSS feeds only have a maximum of 30 records.  There is only one YearMonth combo that has more than 30, so technically we are missing one record :)
